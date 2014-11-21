@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LX-PC</Machine>
+    <WindowsUser>享</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>f6a1847c-317c-442a-898a-27c1178305bc</PackageIdentityName>
+    <IntermediateOutputPath>E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\bin\Debug\Sina.Sports.UI.WindowsPhone.exe">
+      <PackagePath>Sina.Sports.UI.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Dependencies\MvvmLight\WindowsPhone\GalaSoft.MvvmLight.dll">
+      <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Dependencies\MvvmLight\WindowsPhone\GalaSoft.MvvmLight.Extras.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Dependencies\MvvmLight\WindowsPhone\GalaSoft.MvvmLight.Platform.dll">
+      <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Dependencies\MvvmLight\Common\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\Assets\Temp\Logo.scale-240.png">
+      <PackagePath>Assets\Temp\Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\Assets\Temp\SmallLogo.scale-240.png">
+      <PackagePath>Assets\Temp\SmallLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\Assets\Temp\SplashScreen.scale-240.png">
+      <PackagePath>Assets\Temp\SplashScreen.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\Assets\Temp\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Temp\Square71x71Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\Assets\Temp\StoreLogo.scale-240.png">
+      <PackagePath>Assets\Temp\StoreLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\Assets\Temp\WideLogo.scale-240.png">
+      <PackagePath>Assets\Temp\WideLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\bin\Debug\Sina.Sports.UI.WindowsPhone.xr.xml">
+      <PackagePath>Sina.Sports.UI.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

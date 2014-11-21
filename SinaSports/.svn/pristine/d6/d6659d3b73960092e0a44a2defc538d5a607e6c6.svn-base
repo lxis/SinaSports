@@ -1,0 +1,20 @@
+﻿using System.Collections.Generic;
+
+namespace Sina.Sports.Server.Common.RequestModel
+{
+    public class RestRequest
+    { 
+        public RestRequest()
+        {
+        }
+
+        private RestRequestType type = RestRequestType.Get;
+
+        private bool isReturnHeader = false;
+        public bool IsReturnHeader { get { return isReturnHeader; } set { isReturnHeader = value; } }
+        public RestRequestType Type { get { return type; } set { type = value; } }
+        public string Url { get; set; }
+        public IDictionary<string, object> ParamDic { get; set; }
+
+    }
+}

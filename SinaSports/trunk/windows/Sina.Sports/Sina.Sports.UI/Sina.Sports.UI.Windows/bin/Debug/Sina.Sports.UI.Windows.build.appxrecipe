@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LX-PC</Machine>
+    <WindowsUser>享</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>6e03b390-1867-44ba-9f3d-7a1eca9a56f0</PackageIdentityName>
+    <IntermediateOutputPath>E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\Sina.Sports.UI.Windows.exe">
+      <PackagePath>Sina.Sports.UI.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Dependencies\MvvmLight\Windows\GalaSoft.MvvmLight.dll">
+      <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Dependencies\MvvmLight\Windows\GalaSoft.MvvmLight.Extras.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Dependencies\MvvmLight\Windows\GalaSoft.MvvmLight.Platform.dll">
+      <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Dependencies\MvvmLight\Common\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Dependencies\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Common\bin\Debug\Sina.Sports.Common.dll">
+      <PackagePath>Sina.Sports.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Server\bin\Debug\Sina.Sports.Server.dll">
+      <PackagePath>Sina.Sports.Server.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Storage\bin\Debug\Sina.Sports.Storage.dll">
+      <PackagePath>Sina.Sports.Storage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\Assets\Temp\Logo.scale-100.png">
+      <PackagePath>Assets\Temp\Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\Assets\Temp\SmallLogo.scale-100.png">
+      <PackagePath>Assets\Temp\SmallLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\Assets\Temp\StoreLogo.scale-100.png">
+      <PackagePath>Assets\Temp\StoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\BlankPage.xbf">
+      <PackagePath>BlankPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\Views\MainPage\BlankPage1.xbf">
+      <PackagePath>Views\MainPage\BlankPage1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\Views\MainPage\MainPage.xbf">
+      <PackagePath>Views\MainPage\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\Sina.Sports.UI.Windows.xr.xml">
+      <PackagePath>Sina.Sports.UI.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

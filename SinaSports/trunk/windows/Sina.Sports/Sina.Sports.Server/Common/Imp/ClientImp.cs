@@ -1,0 +1,121 @@
+﻿using Newtonsoft.Json;
+using Sina.Sports.Common.JsonConverter;
+using Sina.Sports.Server.Common.CustomExceptions;
+using Sina.Sports.Server.Common.RequestModel;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Sina.Sports.Server.Common.Imp
+{
+    class ClientImp : IClient
+    {
+        ICommonClient restCommonClient;
+        IJsonVerifyer serverVerify;
+
+        public ClientImp(ICommonClient restCommonClient, IJsonVerifyer serverVerify)
+        {
+            this.restCommonClient = restCommonClient;
+            this.serverVerify = serverVerify;
+            this.restCommonClient.TimeOut = new TimeSpan(0, 0, 20);//设置超时时间
+        }
+
+        public async Task<T> Message<T>(RestRequest request) where T : class
+        {
+            if (request.Type == RestRequestType.Get)
+                return await GetMessage<T>(request.Url, request.ParamDic);
+            else
+                    return await PostMessage<T>(request.Url, request.ParamDic);
+        }
+
+        private IList<string> GenerateCacheParam(RestRequest request)
+        {
+            IList<string> cacheParam = new List<string>();
+            cacheParam.Add(request.IsReturnHeader.ToString());
+            cacheParam.Add(request.Type.ToString());
+            if(request.ParamDic!=null)
+                foreach (var param in request.ParamDic)
+                {
+                    cacheParam.Add(param.Key);
+                    cacheParam.Add(param.Value.ToString());
+                }
+            cacheParam.Add(request.Url);
+            return cacheParam;
+        }
+
+        private IList<string> GenerateCacheKey()
+        {
+            IList<string> cacheKey = new List<string>();
+            cacheKey.Add("NetWorkCache==");
+            return cacheKey;
+        }
+
+        public async Task<Stream> Download(RestRequest request) 
+        {
+            string url = GenerateGetUrl(request.Url, request.ParamDic);
+            return await restCommonClient.Download(url);                        
+        }
+
+        public void Verify(int code, string errorMsg = null)
+        {
+            serverVerify.Verify(code, errorMsg);
+        }
+
+        public async Task<T> GetMessage<T>(string template, IDictionary<string, object> paramDic = null) where T : class
+        {
+            var url = GenerateGetUrl(template, paramDic);
+            var result = await restCommonClient.Get(url);
+            return ParseResult<T>(result);
+        }
+
+        public async Task<T> PostMessage<T>(string url, IDictionary<string, object> paramDic = null) where T : class
+        {
+            IDictionary<string, string> paramDicString = new Dictionary<string, string>();
+            if (paramDic != null)
+                foreach (KeyValuePair<string, object> item in paramDic)
+                    paramDicString.Add(item.Key, item.Value.ToString());
+            var result = await restCommonClient.Post(url, paramDicString);
+            return ParseResult<T>(result);
+        }
+
+        #region download
+        public async Task<Stream> Download(string template, IDictionary<string, object> paramDic = null)
+        {
+            string url = GenerateGetUrl(template, paramDic);
+            Stream fileStream = await restCommonClient.Download(url);
+            return fileStream;
+        }
+        #endregion
+
+
+        private T ParseResult<T>(string json) where T : class
+        {
+            if (typeof(T) == typeof(string))
+                return json as T;
+            try
+            {
+                return JsonConvert.DeserializeObject<T>(json);
+            }
+            catch (JsonReaderException ex)
+            {
+                throw new ParseJsonException(ex.Message, json, ex);
+            }
+        }
+
+        private string GenerateGetUrl(string url, IDictionary<string, object> paramDic = null)
+        {
+            if (paramDic == null)
+                return url;
+            string paramString = string.Empty;
+            foreach(var param in paramDic)            
+                paramString+= param.Key+"="+param.Value.ToString()+"&";
+            if (paramString.EndsWith("?"))
+                throw new ArgumentException("有参Get url末尾不需加问号");
+            return url + "?" + paramString;
+        }
+    }
+}

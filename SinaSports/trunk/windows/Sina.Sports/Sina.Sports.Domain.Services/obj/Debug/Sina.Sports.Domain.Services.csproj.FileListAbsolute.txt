@@ -1,0 +1,17 @@
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\bin\Debug\Sina.Sports.Domain.Services.dll
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\bin\Debug\Sina.Sports.Domain.Services.pdb
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\bin\Debug\Sina.Sports.Domain.Services.pri
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\Sina.Sports.Domain.Services.csprojResolveAssemblyReference.cache
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\Sina.Sports.Domain.Services.dll
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\Sina.Sports.Domain.Services.pdb
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\priconfig.xml
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\priconfig.xml.intermediate
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\layout.resfiles
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\layout.resfiles.intermediate
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\resources.resfiles
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\resources.resfiles.intermediate
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\pri.resfiles
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\pri.resfiles.intermediate
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\qualifiers.txt
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\qualifiers.txt.intermediate
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\MultipleQualifiersPerDimensionFound.txt

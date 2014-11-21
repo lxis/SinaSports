@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="Universal.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Universal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"    
+    xmlns:mmppf="clr-namespace:Microsoft.PlayerFramework;assembly=Microsoft.PlayerFramework"
+    xmlns:smmedia="clr-namespace:SM.Media.MediaPlayer;assembly=SM.Media.MediaPlayer.WP8"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel x:Name="grid">
+        <!--<mmppf:MediaPlayer Grid.Row="0">
+            
+        </mmppf:MediaPlayer>-->
+        <!--<mmppf:MediaPlayer Grid.Row="0"  Source="http://wtv.v.iask.com/player/ovs1_vod_rid_2014100029_br_3_pn_weitv_tn_0_sig_md5.m3u8">
+            --><!--<mmppf:MediaPlayer.Plugins>
+                <smmedia:StreamingMediaPlugin />
+            </mmppf:MediaPlayer.Plugins>--><!--
+        </mmppf:MediaPlayer>-->
+        
+    </StackPanel>
+</Page>

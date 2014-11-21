@@ -1,0 +1,134 @@
+﻿using Newtonsoft.Json;
+using Sina.Sports.Server.Common;
+using Sina.Sports.Server.Common.RequestModel;
+using Sina.Sports.Storage.Common;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Sina.Sports.UI.WorkerServices.Initializers
+{
+    public class ServerTestInitializer
+    {
+        public void Init()
+        {
+            LoadRanking();
+        }
+
+
+        private async void LoadRanking()
+        {
+            var dict = new Dictionary<string, object>();
+            dict.Add("t", "0");
+            dict.Add("fr", "8");
+            dict.Add("pid", "1");
+            dict.Add("bid", "1");
+            dict.Add("na_uncheck", "1");
+            var response = await ClientProvider.Message<JsonResponse<RankData>>(new RestRequest() { Url = "http://appwk.baidu.com/naapi/doc/rank/", ParamDic = dict, Type = RestRequestType.Post });
+            ClientProvider.Verify(response.Status.Code, response.Status.Msg);
+            var result = response.Data;        
+        }
+    }
+
+    public class JsonResponse<T>
+    {
+        [JsonProperty("status")]
+        public Status Status { get; set; }
+
+        [JsonProperty("data")]
+        public T Data { get; set; }
+    }
+
+    public class RankData
+    {
+
+        [JsonProperty("content")]
+        public Rank[] Ranks { get; set; }
+
+        [JsonProperty("access_time")]
+        public int AccessTime { get; set; }
+
+        [JsonProperty("t")]
+        public string T { get; set; }
+    }
+
+    public class Rank
+    {
+        [JsonProperty("column")]
+        public RankDetail RankDetail { get; set; }
+
+        [JsonProperty("doclist")]
+        public Document[] Doclist { get; set; }
+    }
+
+    public class RankDetail
+    {
+
+        [JsonProperty("list_id")]
+        public string Id { get; set; }
+
+        [JsonProperty("list_name")]
+        public string Name { get; set; }
+
+        [JsonProperty("list_img")]
+        public string Img { get; set; }
+
+        [JsonProperty("show_hot")]
+        public string ShowHot { get; set; }
+    }
+
+    public class Document
+    {
+
+        [JsonProperty("doc_id")]
+        public string DocId { get; set; }
+
+        [JsonProperty("title")]
+        public string Title { get; set; }
+
+        [JsonProperty("image")]
+        public string Image { get; set; }
+
+        [JsonProperty("summary")]
+        public string Summary { get; set; }
+
+        [JsonProperty("author")]
+        public string Author { get; set; }
+
+        [JsonProperty("special_note")]
+        public string SpecialNote { get; set; }
+
+        [JsonProperty("ext_name")]
+        public string ExtName { get; set; }
+
+        [JsonProperty("size")]
+        public string Size { get; set; }
+
+        [JsonProperty("page_num")]
+        public string PageNum { get; set; }
+
+        [JsonProperty("view_count")]
+        public string ViewCount { get; set; }
+
+        [JsonProperty("mydoc")]
+        public int Mydoc { get; set; }
+
+        [JsonProperty("price")]
+        public string Price { get; set; }
+
+        [JsonProperty("current_price")]
+        public string CurrentPrice { get; set; }
+    }
+
+    public class Status
+    {
+
+        [JsonProperty("code")]
+        public int Code { get; set; }
+
+        [JsonProperty("msg")]
+        public string Msg { get; set; }
+    }
+}

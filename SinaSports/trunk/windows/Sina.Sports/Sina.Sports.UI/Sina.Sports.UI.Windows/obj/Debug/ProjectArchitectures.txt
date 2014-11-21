@@ -1,0 +1,6 @@
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Common\Sina.Sports.Common.csproj;neutral
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Common\Sina.Sports.Common.csproj;neutral
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Common\Sina.Sports.Common.csproj;neutral
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Server\Sina.Sports.Server.csproj;neutral
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Storage\Sina.Sports.Storage.csproj;neutral
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\Sina.Sports.UI.Windows.csproj;neutral

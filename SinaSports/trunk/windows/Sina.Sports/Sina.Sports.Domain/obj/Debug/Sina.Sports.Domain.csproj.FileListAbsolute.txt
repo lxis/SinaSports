@@ -1,0 +1,17 @@
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\bin\Debug\Sina.Sports.Domain.dll
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\bin\Debug\Sina.Sports.Domain.pdb
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\bin\Debug\Sina.Sports.Domain.pri
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\obj\Debug\Sina.Sports.Domain.csprojResolveAssemblyReference.cache
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\obj\Debug\Sina.Sports.Domain.dll
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\obj\Debug\Sina.Sports.Domain.pdb
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\obj\Debug\priconfig.xml
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\obj\Debug\priconfig.xml.intermediate
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\obj\Debug\layout.resfiles
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\obj\Debug\layout.resfiles.intermediate
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\obj\Debug\resources.resfiles
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\obj\Debug\resources.resfiles.intermediate
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\obj\Debug\pri.resfiles
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\obj\Debug\pri.resfiles.intermediate
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\obj\Debug\qualifiers.txt
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\obj\Debug\qualifiers.txt.intermediate
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain\obj\Debug\MultipleQualifiersPerDimensionFound.txt
