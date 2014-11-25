@@ -37,6 +37,9 @@
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Common\bin\Debug\Sina.Sports.Common.dll">
       <PackagePath>Sina.Sports.Common.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Common.UI\bin\Debug\Sina.Sports.Common.UI.dll">
+      <PackagePath>Sina.Sports.Common.UI.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Server\bin\Debug\Sina.Sports.Server.dll">
       <PackagePath>Sina.Sports.Server.dll</PackagePath>
     </AppxPackagedFile>

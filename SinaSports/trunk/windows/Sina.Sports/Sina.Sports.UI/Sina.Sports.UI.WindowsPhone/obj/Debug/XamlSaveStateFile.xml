@@ -1,9 +1,12 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="e:\project\work\sinasports\sinasports\trunk\windows\sina.sports\sina.sports.ui\sina.sports.ui.windowsphone\obj\debug\intermediatexaml\sina.sports.ui.windowsphone.exe" HashGuid="7b266c45-650e-a640-c311-b0be1e667b28" />
+    <LocalAssembly PathName="e:\project\work\sinasports\sinasports\trunk\windows\sina.sports\sina.sports.ui\sina.sports.ui.windowsphone\obj\debug\intermediatexaml\sina.sports.ui.windowsphone.exe" HashGuid="efdef901-bd34-14c3-945c-7a75a154d42c" />
     <ReferenceAssembly PathName="e:\project\work\sinasports\sinasports\trunk\windows\sina.sports\dependencies\mvvmlight\windowsphone\galasoft.mvvmlight.dll" HashGuid="da07be64-1093-25cd-c992-377d44b6dd02" />
     <ReferenceAssembly PathName="e:\project\work\sinasports\sinasports\trunk\windows\sina.sports\dependencies\mvvmlight\windowsphone\galasoft.mvvmlight.extras.dll" HashGuid="28bb2089-c7a4-73bb-7a72-1ea8b02698b0" />
     <ReferenceAssembly PathName="e:\project\work\sinasports\sinasports\trunk\windows\sina.sports\dependencies\mvvmlight\windowsphone\galasoft.mvvmlight.platform.dll" HashGuid="54c1f1ed-b921-337f-8ad6-f2d8c553df06" />
     <ReferenceAssembly PathName="e:\project\work\sinasports\sinasports\trunk\windows\sina.sports\dependencies\mvvmlight\common\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
+    <ReferenceAssembly PathName="e:\project\work\新浪体育\trunk\windows\sina.sports\dependencies\newtonsoft.json.dll" HashGuid="63116148-54c9-33e9-c28b-753c429e654f" />
+    <ReferenceAssembly PathName="e:\project\work\sinasports\sinasports\trunk\windows\sina.sports\sina.sports.common\bin\debug\sina.sports.common.dll" HashGuid="2565ddba-2e83-b546-a5c0-1537e0dc4eec" />
+    <ReferenceAssembly PathName="e:\project\work\sinasports\sinasports\trunk\windows\sina.sports\sina.sports.server\bin\debug\sina.sports.server.dll" HashGuid="3e3c2786-4711-f93d-b01b-4c00baeafc79" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

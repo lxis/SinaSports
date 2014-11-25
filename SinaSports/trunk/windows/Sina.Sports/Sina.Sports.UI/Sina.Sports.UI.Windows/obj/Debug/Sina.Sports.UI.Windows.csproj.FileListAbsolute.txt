@@ -59,6 +59,9 @@ E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\S
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\obj\Debug\Views\MainPage\BlankPage1.xaml
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\obj\Debug\Views\MainPage\BlankPage1.xbf
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\Views\MainPage\BlankPage1.xbf
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\Sina.Sports.Common.UI.dll
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\Sina.Sports.Common.UI.pdb
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\Sina.Sports.Common.UI.pri
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\obj\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\obj\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles.intermediate
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\obj\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles

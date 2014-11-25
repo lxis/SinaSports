@@ -1,0 +1,10 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Sina.Sports.UI.WorkerServices.Exceptions.Handlers
+{
+    class NetworkBrokenNotFoundExceptionHandler
+    {
+    }
+}

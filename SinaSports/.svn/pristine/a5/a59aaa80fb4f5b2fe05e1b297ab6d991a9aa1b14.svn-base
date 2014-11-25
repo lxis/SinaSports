@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Sina.Sports.UI.WorkerServices.Exceptions.Handlers
+{
+    class NetworkBrokenNotFoundExceptionHandler : IExceptionHandler
+    {
+        public Type ExceptionType { get { return typeof(NetworkBrokenNotFoundException); } }
+
+        public void Handle(Exception e)
+        {
+            NormalWarning.ShowNegligible("无网络，请检查网络之后重试");
+
+            //Ioc<INormalWarning>.Create().Show(Resources.NetError_WebServiceExceptionContent, caption: Resources.NetError_WebServiceExceptionTitle);
+        }
+    }
+}

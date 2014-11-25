@@ -13,6 +13,7 @@
     <RootType FullName="Sina.Sports.UI.Views.MainPage.BlankPage1" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Sina.Sports.UI.MainPage" />
     <RootType FullName="Sina.Sports.UI.BlankPage" />

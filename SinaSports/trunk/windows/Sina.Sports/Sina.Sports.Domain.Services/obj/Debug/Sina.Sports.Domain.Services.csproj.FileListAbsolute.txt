@@ -1,7 +1,6 @@
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\bin\Debug\Sina.Sports.Domain.Services.dll
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\bin\Debug\Sina.Sports.Domain.Services.pdb
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\bin\Debug\Sina.Sports.Domain.Services.pri
-E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\Sina.Sports.Domain.Services.csprojResolveAssemblyReference.cache
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\Sina.Sports.Domain.Services.dll
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\Sina.Sports.Domain.Services.pdb
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Domain.Services\obj\Debug\priconfig.xml

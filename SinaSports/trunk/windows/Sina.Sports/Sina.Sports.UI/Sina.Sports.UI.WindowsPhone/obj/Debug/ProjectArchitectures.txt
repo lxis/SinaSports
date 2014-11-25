@@ -1,1 +1,4 @@
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Common\Sina.Sports.Common.csproj;neutral
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Common\Sina.Sports.Common.csproj;neutral
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Server\Sina.Sports.Server.csproj;neutral
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\Sina.Sports.UI.WindowsPhone.csproj;neutral

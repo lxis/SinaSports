@@ -31,14 +31,24 @@
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Dependencies\MvvmLight\Common\Microsoft.Practices.ServiceLocation.dll">
       <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\新浪体育\trunk\windows\Sina.Sports\Dependencies\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Common\bin\Debug\Sina.Sports.Common.dll">
+      <PackagePath>Sina.Sports.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.Server\bin\Debug\Sina.Sports.Server.dll">
+      <PackagePath>Sina.Sports.Server.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\Assets\Temp\Logo.scale-240.png">
       <PackagePath>Assets\Temp\Logo.scale-240.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\Assets\Temp\SmallLogo.scale-240.png">
       <PackagePath>Assets\Temp\SmallLogo.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\Assets\Temp\SplashScreen.scale-240.png">
-      <PackagePath>Assets\Temp\SplashScreen.scale-240.png</PackagePath>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\Assets\Temp\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Temp\Square71x71Logo.scale-240.png</PackagePath>
@@ -52,8 +62,11 @@
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\bin\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\bin\Debug\BlankPage.xbf">
+      <PackagePath>BlankPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\bin\Debug\Views\MainPage\MainPage.xbf">
+      <PackagePath>Views\MainPage\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\bin\Debug\Sina.Sports.UI.WindowsPhone.xr.xml">
       <PackagePath>Sina.Sports.UI.WindowsPhone.xr.xml</PackagePath>

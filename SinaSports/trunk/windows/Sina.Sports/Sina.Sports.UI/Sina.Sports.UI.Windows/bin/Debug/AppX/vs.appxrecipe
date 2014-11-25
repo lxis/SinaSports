@@ -20,13 +20,13 @@
     <AppXManifest Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-21T08:23:29.799</Modified>
+      <Modified>2014-11-21T08:56:57.592</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\Sina.Sports.UI.Windows.exe">
       <PackagePath>Sina.Sports.UI.Windows.exe</PackagePath>
-      <Modified>2014-11-21T08:25:26.915</Modified>
+      <Modified>2014-11-21T08:58:28.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Dependencies\MvvmLight\Windows\GalaSoft.MvvmLight.dll">
       <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
@@ -83,7 +83,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\BlankPage.xbf">
       <PackagePath>BlankPage.xbf</PackagePath>
-      <Modified>2014-11-21T08:23:28.505</Modified>
+      <Modified>2014-11-21T08:56:56.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\Views\MainPage\BlankPage1.xbf">
       <PackagePath>Views\MainPage\BlankPage1.xbf</PackagePath>
@@ -91,15 +91,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\Views\MainPage\MainPage.xbf">
       <PackagePath>Views\MainPage\MainPage.xbf</PackagePath>
-      <Modified>2014-11-21T08:23:28.504</Modified>
+      <Modified>2014-11-21T08:36:46.546</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\Sina.Sports.UI.Windows.xr.xml">
       <PackagePath>Sina.Sports.UI.Windows.xr.xml</PackagePath>
-      <Modified>2014-11-21T08:23:28.489</Modified>
+      <Modified>2014-11-21T08:36:46.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-11-21T08:25:27.552</Modified>
+      <Modified>2014-11-21T08:57:53.343</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
