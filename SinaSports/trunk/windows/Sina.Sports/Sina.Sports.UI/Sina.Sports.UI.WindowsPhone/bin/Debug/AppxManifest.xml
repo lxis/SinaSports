@@ -7,7 +7,7 @@
 
     有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="f6a1847c-317c-442a-898a-27c1178305bc" Publisher="CN=享" Version="1.0.0.0" ProcessorArchitecture="neutral" />
+  <Identity Name="f6a1847c-317c-442a-898a-27c1178305bc" Publisher="CN=享" Version="1.0.0.1" ProcessorArchitecture="neutral" />
   <mp:PhoneIdentity PhoneProductId="f6a1847c-317c-442a-898a-27c1178305bc" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Sina.Sports.UI.WindowsPhone</DisplayName>
@@ -24,7 +24,7 @@
   <Applications>
     <Application Id="App" Executable="Sina.Sports.UI.WindowsPhone.exe" EntryPoint="Sina.Sports.UI.WindowsPhone.App">
       <m3:VisualElements DisplayName="Sina.Sports.UI.WindowsPhone" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="Sina.Sports.UI.WindowsPhone" ForegroundText="light" BackgroundColor="transparent">
-        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png" />
+        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png"></m3:DefaultTile>
         <m3:SplashScreen Image="Assets\SplashScreen.png" />
       </m3:VisualElements>
     </Application>

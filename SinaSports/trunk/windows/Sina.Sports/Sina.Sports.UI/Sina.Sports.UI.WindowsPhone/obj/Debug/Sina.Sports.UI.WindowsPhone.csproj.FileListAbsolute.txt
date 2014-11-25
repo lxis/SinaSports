@@ -51,3 +51,11 @@ E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\S
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\bin\Debug\Sina.Sports.Server.dll
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\bin\Debug\Sina.Sports.Server.pdb
 E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\bin\Debug\Sina.Sports.Server.pri
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles.intermediate
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles.intermediate
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\pri.resfiles
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\pri.resfiles.intermediate
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\priconfig.xml
+E:\Project\Work\SinaSports\SinaSports\trunk\windows\Sina.Sports\Sina.Sports.UI\Sina.Sports.UI.WindowsPhone\obj\Debug\Microsoft.Practices.ServiceLocation\priconfig.xml.intermediate
